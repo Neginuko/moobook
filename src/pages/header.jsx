@@ -1,7 +1,7 @@
 import React from 'react';
 // import CameraComponent from './camera';
 import '../App.css';
-import Testcamera from './testcamera';
+import PreviewCamera from './PreviewCamera';
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
         <h1>GESTURE BOOK</h1>
         <div className="camera">
           {/* <CameraComponent /> */}
-          <Testcamera />
+          <PreviewCamera />
         </div>
       </header>
     </div>
